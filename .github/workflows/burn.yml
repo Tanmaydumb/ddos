@@ -22,7 +22,7 @@ jobs:
       - name: show ip
         run: curl -s ifconfig.me; echo
       - name: burn
-        run: sudo python3 mcddos.py
+        run: python3 mcddos.py
         env:
           MCDOS_AUTO: "1"
           MCDOS_NO_RAW: "1"
